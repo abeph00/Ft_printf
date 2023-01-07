@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	<b><i>Development repo for 42madrid' libft project</i></b><br>
+	<b><i>Development repo for 42 projects</i></b><br>
 
 ---
 
