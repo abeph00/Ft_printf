@@ -6,7 +6,7 @@
 /*   By: abertran <abertran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 17:26:03 by abertran          #+#    #+#             */
-/*   Updated: 2022/11/23 15:23:40 by abertran         ###   ########.fr       */
+/*   Updated: 2022/11/29 19:10:37 by abertran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,33 +61,34 @@ int	ft_printf(const char *str, ...)
 /*
 int	main(void)
 {
-	char			*str;
-	int				n;
-	char			c;
-	unsigned int	un;
-	str = "Marvin is a cat";
-	n = 92233;
-	c = 'a';
-	un = 234;
-	ft_printf("El string es: %s\n", NULL);
-	printf("El string es: %s\n", NULL);
-	ft_printf("El string es: %s\n", str);
-	printf("El string es: %s\n", str);
-	ft_printf("El numero es: %d\n", n);
-	printf("El numero es: %d\n", n);
-	ft_printf("El char es: %c\n", c);
-	printf("El char es: %c\n", c);
-	ft_printf("El n con i es: %i\n", n);
-	printf("El n con i es: %i\n", n);
-	ft_printf("El n con u es: %u\n", n);
-	printf("El n con u es: %u\n", n);
-	ft_printf("El n con X es: %X\n", n);
-	printf("El n con X es: %X\n", n);
-	ft_printf("El n con x es: %x\n", n);
-	printf("El n con x es: %x\n", n);
-	ft_printf("Recibiendo: %%\n");
-	printf("Recibiendo: %%\n");
-	ft_printf("Recibiendo void*: %p\n", str);
-	printf("Recibiendo void*: %p\n", str);
+	//char			*str;
+	int				n, i1, i2;
+	//char			c;
+	// unsigned int	un;
+	// str = "Marvin is a cat";
+ 	n = 2647;
+	// c = 'a';
+	// un = 234;
+	// i1 = ft_printf("%s", n);
+	// i2 = printf("%s", n);
+	i1 = ft_printf("El numero es : %d\t \n", n);
+	i2 = printf("El numero es : %d\t \n", n);
+	// i1 = ft_printf("El numero es: %X\n", n);
+	// i2 = printf("El numero es: %X\n", n);
+	// i1 = ft_printf("El char es: %c\n", 97);
+	// i2 = printf("El char es: %c\n", 97);
+	// i1 = ft_printf("El n con i es: %i\n", n);
+	// i2 = printf("El n con i es: %i\n", n);
+	// i1 = ft_printf("El n con u es: %u\n", n);
+	// i2 = printf("El n con u es: %u\n", n);
+	// i1 = ft_printf("El n con X es: %X\n", n);
+	// i2 = printf("El n con X es: %X\n", n);
+	// i1 = ft_printf("El n con x es: %x\n", n);
+	// i2 = printf("El n con x es: %x\n", n);
+	// i1 = ft_printf("Recibiendo: %%\n");
+	// i2 = printf("Recibiendo: %%\n");
+	// i1 = ft_printf("Recibiendo void*: %p\n", &c);
+	// i2 = printf("Recibiendo void*: %p\n", &c);
+	printf ("%i - %i\n", i1, i2);
 }
 */

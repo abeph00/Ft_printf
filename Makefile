@@ -14,8 +14,10 @@ FLAGS = -Wall -Werror -Wextra
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-	gcc -c ${FLAGS} ${SRCS}
-	ar rcs ${NAME} ${OBJS}
+	ar -rcs ${NAME} ${OBJS}
+
+%.o: %.c
+	gcc $(FLAGS) -c $< -o $@
 
 clean:
 	rm -f ${OBJS}
